@@ -31,8 +31,8 @@
   --border-medium: rgba(139, 94, 60, 0.2);
 
   /* Typography */
-  --font-display: 'Playfair Display', serif;
-  --font-body: 'Inter', sans-serif;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
 
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;

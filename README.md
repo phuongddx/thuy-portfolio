@@ -9,7 +9,7 @@ A modern, animated portfolio website for Dang Bich Thuy - Senior Talent Acquisit
 - **Styling:** Tailwind CSS v4.2.1 with custom theme
 - **Animations:** Framer Motion 12.34.3
 - **Icons:** Lucide React 0.575.0
-- **Fonts:** Playfair Display (display) + Inter (body)
+- **Fonts:** Space Grotesk (display) + DM Sans (body)
 
 ## Getting Started
 
@@ -87,8 +87,8 @@ src/
 
 ### Typography
 
-- **Display:** Playfair Display (headlines)
-- **Body:** Inter (body text)
+- **Display:** Space Grotesk (headlines)
+- **Body:** DM Sans (body text)
 
 ## Features
 
