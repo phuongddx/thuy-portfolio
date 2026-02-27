@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom colors */
+  --color-warm-cream: #FFF8F0;
+  --color-soft-coral: #FF7F6E;
+  --color-warm-brown: #8B5E3C;
+  --color-soft-peach: #FFCDB2;
+  --color-muted-gold: #D4A574;
+  --color-deep-burgundy: #722F37;
+}
+
+:root {
+  /* Backgrounds */
+  --bg-primary: #FFF8F0;
+  --bg-secondary: #FFCDB2;
+  --bg-card: #FFFFFF;
+
+  /* Text */
+  --text-primary: #8B5E3C;
+  --text-secondary: #A67C5B;
+  --text-muted: #C4A484;
+
+  /* Accents */
+  --accent-primary: #FF7F6E;
+  --accent-secondary: #D4A574;
+  --accent-hover: #722F37;
+
+  /* Borders */
+  --border-light: rgba(139, 94, 60, 0.1);
+  --border-medium: rgba(139, 94, 60, 0.2);
+
+  /* Typography */
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.5rem;
+  --text-5xl: 3.5rem;
+  --text-hero: 5rem;
+
+  /* Animation */
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --duration-slow: 500ms;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
